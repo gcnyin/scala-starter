@@ -5,7 +5,7 @@ ThisBuild / organizationName := "gcnyin"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "seed"
+    name := "scala-starter"
   )
   .settings(scalacOptions ++= advanceScalacOptions)
   .settings(libraryDependencies ++= projectDependencies)
